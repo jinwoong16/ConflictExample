@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		836AAA4D2C57C91900FB9B34 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836AAA4C2C57C91900FB9B34 /* Second.swift */; };
 		83FE263C2C57C888003A84D7 /* ConflictExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE263B2C57C888003A84D7 /* ConflictExampleApp.swift */; };
 		83FE263E2C57C888003A84D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE263D2C57C888003A84D7 /* ContentView.swift */; };
 		83FE26402C57C889003A84D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FE263F2C57C889003A84D7 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		836AAA4C2C57C91900FB9B34 /* Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
 		83FE26382C57C888003A84D7 /* ConflictExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConflictExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83FE263B2C57C888003A84D7 /* ConflictExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConflictExampleApp.swift; sourceTree = "<group>"; };
 		83FE263D2C57C888003A84D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		836AAA4B2C57C91200FB9B34 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				836AAA4C2C57C91900FB9B34 /* Second.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
 		83FE262F2C57C888003A84D7 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		83FE263A2C57C888003A84D7 /* ConflictExample */ = {
 			isa = PBXGroup;
 			children = (
+				836AAA4B2C57C91200FB9B34 /* Second */,
 				83FE263B2C57C888003A84D7 /* ConflictExampleApp.swift */,
 				83FE263D2C57C888003A84D7 /* ContentView.swift */,
 				83FE263F2C57C889003A84D7 /* Assets.xcassets */,
@@ -139,6 +150,7 @@
 			files = (
 				83FE263E2C57C888003A84D7 /* ContentView.swift in Sources */,
 				83FE263C2C57C888003A84D7 /* ConflictExampleApp.swift in Sources */,
+				836AAA4D2C57C91900FB9B34 /* Second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
