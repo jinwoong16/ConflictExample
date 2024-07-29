@@ -11,6 +11,7 @@
 		83FE263E2C57C888003A84D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE263D2C57C888003A84D7 /* ContentView.swift */; };
 		83FE26402C57C889003A84D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FE263F2C57C889003A84D7 /* Assets.xcassets */; };
 		83FE26432C57C889003A84D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FE26422C57C889003A84D7 /* Preview Assets.xcassets */; };
+		83FE264B2C57C8D9003A84D7 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE264A2C57C8D9003A84D7 /* First.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		83FE263D2C57C888003A84D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		83FE263F2C57C889003A84D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83FE26422C57C889003A84D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83FE264A2C57C8D9003A84D7 /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		83FE263A2C57C888003A84D7 /* ConflictExample */ = {
 			isa = PBXGroup;
 			children = (
+				83FE26492C57C8CE003A84D7 /* FirstDirectory */,
 				83FE263B2C57C888003A84D7 /* ConflictExampleApp.swift */,
 				83FE263D2C57C888003A84D7 /* ContentView.swift */,
 				83FE263F2C57C889003A84D7 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				83FE26422C57C889003A84D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83FE26492C57C8CE003A84D7 /* FirstDirectory */ = {
+			isa = PBXGroup;
+			children = (
+				83FE264A2C57C8D9003A84D7 /* First.swift */,
+			);
+			path = FirstDirectory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				83FE263E2C57C888003A84D7 /* ContentView.swift in Sources */,
 				83FE263C2C57C888003A84D7 /* ConflictExampleApp.swift in Sources */,
+				83FE264B2C57C8D9003A84D7 /* First.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
